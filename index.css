@@ -1,0 +1,94 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 1em;
+}
+
+h2, h3, li {
+    font-family: 'Aleo', serif;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+p {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    margin-top: 0;
+    color: #5a5a5a;
+}
+
+ul {
+    padding: 0.3em 1em;
+    margin: 0;
+}
+
+li {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+img {
+    width: 100%;
+}
+
+.meta-info {
+    font-size: 13px;
+}
+
+.divider {
+    color: #dbdbdb;
+}
+
+.time {
+    color: #5a5a5a;
+}
+
+.category {
+    color: #222;
+}
+
+.live {
+    color: #bb1919;
+    font-weight: 700;
+    margin-right: 0.25em;
+}
+
+.icon {
+    height: 13px;
+    width: 13px;
+    display: inline-block;
+    margin-bottom: -2px;
+    filter: invert(32%) sepia(8%) saturate(0%) hue-rotate(174deg) brightness(93%) contrast(74%);
+}
+
+/* 
+Need help? Visit this page: https://scrimba.com/links/bbc-news-solo-project-hints 
+
+WRITE YOUR CODE BELOW 👇
+*/
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(1, 100px);
+    column-gap: 20px;
+}
+
