@@ -90,6 +90,8 @@ WRITE YOUR CODE BELOW 👇
     grid-template-columns: repeat(3, 200px);
     grid-template-rows: repeat(2, 200px);
     column-gap: 20px;
+    grid-auto-flow: dense;
+
 }
 
 .featured-article{
