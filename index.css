@@ -88,12 +88,17 @@ WRITE YOUR CODE BELOW 👇
 .grid{
     display: grid;
     grid-template-columns: repeat(4, 200px);
-    grid-template-rows: repeat(2, 400px);
+    grid-template-rows: repeat(2, 300px);
     gap: 20px;
-    /* grid-auto-flow: dense; */
+    grid-auto-flow: dense;
 
 }
 
 .featured-article{
     /* grid-column: 2 / */
+}
+
+.second-row{
+   
+   grid-column: 5 / 1;  
 }
