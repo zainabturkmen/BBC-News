@@ -91,13 +91,12 @@ WRITE YOUR CODE BELOW 👇
     grid-template-rows: repeat(3, 300px);
     gap: 20px;
     grid-auto-flow: dense;
-
-}
-
-.featured-article{
-    /* grid-column: 2 / 2; */
 }
 
 .second-row{
    grid-column: 2 / 1;  
+}
+
+.regular-article{
+    grid-column: 3 / 3;
 }
