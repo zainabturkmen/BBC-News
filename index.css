@@ -93,9 +93,9 @@ WRITE YOUR CODE BELOW 👇
     grid-auto-flow: dense;
 }
 
-/* .second-row{
-   grid-column: 2 / 1;  
-} */
+.second-row{
+    
+}
 
 .regular-article2{
     grid-column: 1 / 2;
