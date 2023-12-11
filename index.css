@@ -21,7 +21,7 @@ h2 {
 }
 
 h3 {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
     margin-top: 0.5em;
     margin-bottom: 0.5em;
@@ -29,10 +29,11 @@ h3 {
 
 p {
     font-size: 14px;
-    line-height: 18px;
+    line-height: 25px;
     font-weight: 400;
-    margin-top: 0;
+    margin-bottom: 30px;
     color: #5a5a5a;
+    width: 260px;
 }
 
 ul {
@@ -90,7 +91,7 @@ WRITE YOUR CODE BELOW 👇
     grid-template-columns: repeat(4, 355px);
     grid-template-rows: repeat(1, 470px);
     gap: 20px;
-    grid-auto-flow: dense;
+    /* grid-auto-flow: dense; */
 }
 
 .second-row{
@@ -108,17 +109,9 @@ WRITE YOUR CODE BELOW 👇
 .regular-article4{
     grid-column: 3 / 3;
 }
-/* .regular-article5{
-    grid-column: 11/ 12;
-} */
-
-/* .featured-article-img{
-    grid-column: span 1;
-    grid-row: span 2;
-} */
 
 .featured-article0{
     grid-column: span 2 ;
-    grid-row: span 1;
+    /* grid-row: span 1; */
 
 }
