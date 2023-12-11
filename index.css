@@ -88,7 +88,7 @@ WRITE YOUR CODE BELOW 👇
 .grid{
     display: grid;
     grid-template-columns: repeat(4, 230px);
-    grid-template-rows: repeat(4, 320px);
+    grid-template-rows: repeat(3, 300px);
     gap: 20px;
     /* grid-auto-flow: dense; */
 }
