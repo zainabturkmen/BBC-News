@@ -112,6 +112,7 @@ WRITE YOUR CODE BELOW 👇
     grid-column: 11/ 12;
 } */
 
-.hospital{
-    width: 300px;
+.featured-article-img{
+    grid-column: span 1;
+    grid-row: span 2;
 }
