@@ -87,15 +87,15 @@ WRITE YOUR CODE BELOW 👇
 
 .grid{
     display: grid;
-    grid-template-columns: repeat(4, 230px);
-    grid-template-rows: repeat(1, 270px);
+    grid-template-columns: repeat(4, 355px);
+    grid-template-rows: repeat(1, 470px);
     gap: 20px;
     grid-auto-flow: dense;
 }
 
-/* .second-row{
-    grid-column: 2 / 3;
-} */
+.second-row{
+    grid-column: 1 / 2;
+}
 
 .regular-article2{
     grid-column: 1 / 2;
