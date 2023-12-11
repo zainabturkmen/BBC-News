@@ -88,7 +88,10 @@ WRITE YOUR CODE BELOW 👇
 .grid{
     display: grid;
     grid-template-columns: repeat(3, 200px);
-    grid-template-rows: repeat(1, 100px);
+    grid-template-rows: repeat(2, 200px);
     column-gap: 20px;
 }
 
+.featured-article{
+    grid-column: 
+}
