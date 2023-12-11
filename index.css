@@ -21,19 +21,18 @@ h2 {
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 21.3px;
     font-weight: 600;
     margin-top: 0.7em;
     margin-bottom: 0.5em;
 }
 
 p {
-    font-size: 14px;
+    font-size: 19px;
     line-height: 25px;
     font-weight: 400;
     margin-bottom: 30px;
     color: #5a5a5a;
-    width: 260px;
 }
 
 ul {
@@ -89,9 +88,9 @@ WRITE YOUR CODE BELOW 👇
 .grid{
     display: grid;
     grid-template-columns: repeat(4, 355px);
-    grid-template-rows: repeat(1, 470px);
+    grid-template-rows: repeat(1, 420px);
     gap: 20px;
-    /* grid-auto-flow: dense; */
+    grid-auto-flow: row;
 }
 
 .second-row{
