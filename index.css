@@ -112,7 +112,12 @@ WRITE YOUR CODE BELOW 👇
     grid-column: 11/ 12;
 } */
 
-.featured-article-img{
+/* .featured-article-img{
     grid-column: span 1;
+    grid-row: span 2;
+} */
+
+.featured-article0{
+    grid-column: span 2 ;
     grid-row: span 2;
 }
