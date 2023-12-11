@@ -87,7 +87,7 @@ WRITE YOUR CODE BELOW 👇
 
 .grid{
     display: grid;
-    grid-template-columns: repeat(4, 200px);
+    grid-template-columns: repeat(3, 200px);
     grid-template-rows: repeat(2, 300px);
     gap: 20px;
     grid-auto-flow: dense;
@@ -95,10 +95,9 @@ WRITE YOUR CODE BELOW 👇
 }
 
 .featured-article{
-    /* grid-column: 2 / */
+    /* grid-column: 2 / 2; */
 }
 
 .second-row{
-   
-   grid-column: 5 / 1;  
+   grid-column: 2 / 1;  
 }
