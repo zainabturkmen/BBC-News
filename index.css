@@ -87,8 +87,8 @@ WRITE YOUR CODE BELOW 👇
 
 .grid{
     display: grid;
-    grid-template-columns: repeat(4, 200px);
-    grid-template-rows: repeat(3, 300px);
+    grid-template-columns: repeat(4, 230px);
+    grid-template-rows: repeat(3, 320px);
     gap: 20px;
     grid-auto-flow: dense;
 }
@@ -119,5 +119,6 @@ WRITE YOUR CODE BELOW 👇
 
 .featured-article0{
     grid-column: span 2 ;
-    grid-row: span 2;
+    grid-row: span 1;
+
 }
