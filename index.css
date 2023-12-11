@@ -88,14 +88,14 @@ WRITE YOUR CODE BELOW 👇
 .grid{
     display: grid;
     grid-template-columns: repeat(4, 230px);
-    grid-template-rows: repeat(3, 320px);
+    grid-template-rows: repeat(4, 320px);
     gap: 20px;
     /* grid-auto-flow: dense; */
 }
 
-.second-row{
-   padding-bottom: -2em;
-}
+/* .second-row{
+    grid-column: 2 / 3;
+} */
 
 .regular-article2{
     grid-column: 1 / 2;
